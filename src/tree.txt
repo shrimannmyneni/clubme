@@ -1,0 +1,27 @@
+.
+├── App.css
+├── App.jsx
+├── App.test.js
+├── components
+│   ├── Footer
+│   │   ├── footer.css
+│   │   └── footer.jsx
+│   ├── Navbar
+│   │   ├── navbar.css
+│   │   └── navbar.jsx
+│   ├── layout.css
+│   └── layout.jsx
+├── index.css
+├── index.js
+├── pages
+│   ├── Login
+│   │   ├── login.css
+│   │   └── login.jsx
+│   └── Profile
+│       ├── profile.css
+│       └── profile.jsx
+├── reportWebVitals.js
+├── setupTests.js
+└── tree.txt
+
+7 directories, 18 files

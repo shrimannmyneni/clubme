@@ -1,0 +1,63 @@
+/* Style for the nav element */
+nav {
+    background-color: #f4f4f4;   /* Light gray background for the navbar */
+    padding: 10px 20px;          /* Adds padding around the navbar */
+    display: grid;               /* Enables CSS Grid layout */
+    align-items: center;         /* Vertically center the content */
+    gap: 20px;                   /* Adds space between grid items */
+  }
+  
+  /* Style for the unordered list */
+  nav ul {
+    list-style: none;            /* Removes the default bullet points */
+    display: grid;               /* Makes the list items display as grid items */
+    grid-template-columns: repeat(5, 1fr); /* Distributes 5 columns for the list items */
+    gap: 20px;                   /* Adds spacing between the icons */
+    margin: 0;                   /* Removes default margin */
+    justify-items: center;       /* Centers each icon in its grid cell */
+  }
+  
+  /* Style for individual list items */
+  nav ul li {
+    padding: 5px 10px;           /* Adds padding around each list item */
+  }
+  
+  /* Style for anchor tags inside list items */
+  nav ul li a {
+    text-decoration: none;       /* Removes the underline from links */
+    color: #333;                 /* Sets the icon color */
+    font-size: 24px;             /* Adjusts icon size */
+    transition: color 0.3s ease; /* Adds a smooth transition effect for color */
+  }
+  
+  /* Style for hover effect on icons */
+  nav ul li a:hover {
+    color: #007bff;              /* Changes icon color on hover (blue) */
+  }
+  
+  /* Optional: Adjust the appearance of the app name (h1) */
+  header h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+
+
+  .home{
+    grid-column: 1 /span 1;
+  }
+
+  .dashboard{
+    grid-column: 2 / span 1;
+  }
+
+
+  .profile{
+    grid-column: 4 /span 1;
+  }
+
+  .login{
+    grid-column: 5 /span 1;
+  }
+  

@@ -1,0 +1,10 @@
+/* for mobile devices */ 
+#container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.content{
+    grid-column: 2 / span 1;
+}
+

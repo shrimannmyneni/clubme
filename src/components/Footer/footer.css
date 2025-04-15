@@ -1,0 +1,14 @@
+/* Style for the footer element */
+footer {
+    background-color: #f4f4f4;   /* Dark background color */
+    color: #000;              /* White text */
+    text-align: center;       /* Center the text */
+    margin-top: 1rem;
+  }
+  
+  footer p {
+    padding: 1rem;
+    margin: 0;                /* Remove default margin */
+    font-size: 14px;           /* Font size for the copyright */
+  }
+  

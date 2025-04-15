@@ -1,0 +1,34 @@
+form label, form button{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+  @media (prefers-reduced-motion: reduce) {
+    .forgot-password a {
+      transition: none;  /* Disables transition for reduced motion */
+    }
+  }
+  
+  .forgot-password a {
+    color: #005f80;               /* Darker blue text for better contrast */
+    font-size: 14px;               /* Font size */
+    text-decoration: none;         /* Remove underline */
+    transition: all 0.5s ease;     /* Smooth transition for all properties */
+    display: inline-block;         /* Make the link an inline block for easier manipulation */
+    margin-top: 10px;              /* Add space above the link */
+  }
+  
+  /* Glowing effect and expansion on hover/focus */
+  .forgot-password a:hover,
+  .forgot-password a:focus {
+    color: #00bfff;                /* Light blue text on hover */
+    text-decoration: underline;    /* Add an underline on hover */
+    transform: scale(1.1);         /* Slightly increase the size of the text */
+    text-shadow: 0 0 5px rgba(0, 191, 255, 0.15), 0 0 5px rgba(0, 191, 255, 0.15); /* Glowing effect */
+  }
+  
