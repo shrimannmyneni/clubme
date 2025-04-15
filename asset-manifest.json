@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clubme/static/css/main.ff3846f6.css",
+    "main.js": "/clubme/static/js/main.abde2171.js",
+    "static/js/453.8ab44547.chunk.js": "/clubme/static/js/453.8ab44547.chunk.js",
+    "static/media/visa.png": "/clubme/static/media/visa.5233342e91367bcbab67.png",
+    "index.html": "/clubme/index.html",
+    "main.ff3846f6.css.map": "/clubme/static/css/main.ff3846f6.css.map",
+    "main.abde2171.js.map": "/clubme/static/js/main.abde2171.js.map",
+    "453.8ab44547.chunk.js.map": "/clubme/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff3846f6.css",
+    "static/js/main.abde2171.js"
+  ]
+}
