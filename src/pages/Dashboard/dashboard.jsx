@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/ui/Card/card';
+import Card from '../../components/ui/Card/Card';
 
 // Sample data
 const sampleData = [
