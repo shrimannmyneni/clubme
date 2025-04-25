@@ -1,0 +1,25 @@
+.home-container {
+    width: 100%;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers everything inside */
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .home-container p {
+    font-size: 1.15rem;
+    line-height: 1.75;
+    max-width: 1000px; /* full width but readable */
+    text-align: justify;
+    margin-bottom: 1.5rem;
+  }
+  

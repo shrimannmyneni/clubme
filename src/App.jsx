@@ -8,6 +8,7 @@ import Layout from './components/layout';
 import Login from './pages/Login/login';
 import Dashboard from './pages/Dashboard/dashboard';
 import Profile from './pages/Profile/profile';
+import Home from './pages/Home/home';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Layout>
         <Routes>
+          <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/profile" element={<Profile />} />
