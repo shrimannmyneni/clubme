@@ -1,26 +1,28 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Profile from './pages/Profile/Profile';
-import Login from './pages/Login/Login';
-import Dashboard from './pages/Dashboard/Dashboard';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Layout from './components/layout'
+import Navbar from './components/Navbar/navbar';
+import Footer from './components/Footer/footer';
+import Layout from './components/layout';
+
+import Login from './pages/Login/login';
+import Dashboard from './pages/Dashboard/dashboard';
+import Profile from './pages/Profile/profile';
+
 import './App.css';
-
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Layout>
         <Routes>
-          <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </Layout>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }
