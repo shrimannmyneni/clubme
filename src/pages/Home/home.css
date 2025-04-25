@@ -3,7 +3,7 @@
     padding: 2rem 4rem;
     display: flex;
     flex-direction: column;
-    align-items: center; /* centers everything inside */
+    align-items: center;
     box-sizing: border-box;
     grid-column: 1 / -1;
   }
@@ -18,7 +18,7 @@
   .home-container p {
     font-size: 1.15rem;
     line-height: 1.75;
-    max-width: 1000px; /* full width but readable */
+    max-width: 1000px; 
     text-align: justify;
     margin-bottom: 1.5rem;
   }
